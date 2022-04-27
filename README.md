@@ -1,3 +1,3 @@
-# gorfeelt
+# cockfeelt
 
-An epic website for epic people
+A project for fucking around with Vue.js

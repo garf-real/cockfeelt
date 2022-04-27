@@ -8,37 +8,7 @@
   </head>
   <body>
     <div id="app">
-      <p @click="increment" :style="version > 5 ? styleObject2 : styleObject">
-        Welcome to {{appName}}, version {{version}}, {{appName}} {{version > 0 ?
-        'is' : 'is not'}} released
-      </p>
-
-      <p v-if="version > 0">{{appName}} is released!</p>
-      <p v-else>FUCK! {{appName}} isn't released yet</p>
-
-      <ol>
-        <li v-for="item in array">
-          {{ item.name }} is {{ item.age }} years old<br />
-          This is what he looks like:
-          <img :src="item.img" style="display: block" width="200" />
-        </li>
-      </ol>
-      <p>Message is: {{message}}</p>
-      <input
-        v-model="message"
-        @keyup.enter="increment"
-        placeholder="enter to shit"
-      />
-      <input type="checkbox" id="checkbox" v-model="checked" />
-      <label for="checkbox">{{ checked }}</label>
-
-      <div>Selected: {{ selected }}</div>
-
-      <select v-model="selected" multiple>
-        <option>A</option>
-        <option>B</option>
-        <option>C</option>
-      </select>
+      gorfeelt goes here
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>
